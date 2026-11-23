@@ -1,0 +1,8 @@
+{
+  "format_version": 1,
+  "residents": [{"id":"house-a","night_limit":53,"monitor":"m1"},{"id":"house-b","night_limit":51,"monitor":"m2"}],
+  "events": [{"id":"event-01","program":"drum-walk","revision":"r1","place":"square","start":"20:10","end":"20:40","permit":"signed"},{"id":"event-02","program":"fireworks","revision":"r2","place":"old-village","start":"20:30","end":"20:55","permit":"proposed"},{"id":"event-03","program":"drum-walk","revision":"r1","place":"square","start":"20:10","end":"20:40","permit":"signed"}],
+  "measurements": [{"id":"m-01","monitor":"m1","start":"20:00","end":"20:30","level_db":49.5,"wind":"north","quality":"valid"},{"id":"m-02","monitor":"m1","start":"20:30","end":"21:00","level_db":51.2,"wind":"north","quality":"valid"},{"id":"m-03","monitor":"m2","start":"20:30","end":"21:00","level_db":43,"quality":"device_floor"}],
+  "controls": [{"id":"quiet-01","monitor":"m2","start":"19:00","end":"19:30","level_db":39,"wind":"north","programs":[]}],
+  "devices": [{"id":"m1","calibrated":"2026-08-01","floor_db":31},{"id":"m2","calibrated":"2026-08-02","floor_db":43}]
+}
